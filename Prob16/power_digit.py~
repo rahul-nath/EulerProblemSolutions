@@ -1,0 +1,8 @@
+soln = 2**10
+soln = soln**3
+str_soln = str(soln).split()
+print str_soln
+total = 0
+for i in str_soln:
+    total += int(i)
+print total
