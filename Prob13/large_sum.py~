@@ -1,0 +1,20 @@
+# read in each line
+# take the last seven digits
+# store the new seven-digit int in an array
+# convert to a long
+# once made, add each long together
+# if the sum is greater than 1 billion at any point
+#     convert the int to a string
+
+nums = []
+with open('the_num.txt', 'rb') as f:
+    for long_num in f:
+        nums.append(long_num[-51:])
+
+def some():
+    total = long(0)
+    for l in nums:
+        print l
+        total += long(l)
+    print total
+some()
