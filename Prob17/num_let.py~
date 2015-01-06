@@ -1,0 +1,8 @@
+# keep an array for the ones digits
+# keep an array for the tens digits
+# keep an array for the hundreds (including 'and')
+
+ones = [0, 3, 3, 5, 4, 4, 3, 5, 5, 4] # 0...9
+teens = [3, 6, 6, 8, 8, 7, 7, 9, 9, 8] # 10...19
+tens = [6, 6, 5, 5, 5, 7, 6, 6] # 20...90
+hundreds = [13, 13, 15, 14, 14, 13, 15, 15, 14] # 100....900
